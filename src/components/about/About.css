@@ -1,0 +1,10 @@
+.about{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.pic{
+    transform: scale(10%);
+}
