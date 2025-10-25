@@ -1,5 +1,5 @@
 .certificate-container{
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 20%;
     margin-right: 20%;
     display: flex;
@@ -13,4 +13,8 @@
 .cert-single {
     width: 500px;
     margin-bottom: 10px;
+}
+
+.certificate-section{
+    margin-bottom: 50px;
 }

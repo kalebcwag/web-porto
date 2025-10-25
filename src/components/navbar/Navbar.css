@@ -51,3 +51,12 @@
     transform: scale(1.05);
 }
 
+.navbar-menu{
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.navbar-menu:hover{
+    color: #812325;
+}
+
