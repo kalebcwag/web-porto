@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/navbar/Navbar'
 import About from './components/about/About'
 import Certificates from './components/certificates/Certificates'
+import Projects from './components/projects/Projects'
 
 const App = () => {
   return (
@@ -15,13 +16,16 @@ const App = () => {
         <About/>
 
         <h1 className='section-title'>
+          Latest Works
+        </h1>
+        <Projects/>
+
+        <h1 className='section-title'>
           Certificates
         </h1>
         <Certificates/>
 
-        <h1 className='section-title'>
-          Projects
-        </h1>
+
         <h1 className='section-title'>
           Contact Me
         </h1>

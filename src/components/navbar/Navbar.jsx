@@ -9,8 +9,8 @@ const Navbar = () => {
       <h1 className='namaJudul'>Kaleb Coyo Wagito</h1>
       <ul className='navmenu'>
         <li className='navbar-menu'>About Me</li>
+        <li className='navbar-menu'>Latest Works</li>
         <li className='navbar-menu'>Certificates</li>
-        <li className='navbar-menu'>Projects</li>
         <li className='navbar-menu'>Contact</li>
       </ul>
       <div className="navconnect">Connect</div>

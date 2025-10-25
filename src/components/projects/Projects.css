@@ -1,0 +1,52 @@
+.projects-container {
+    display: grid;
+    /* Atur 2 kolom, masing-masing mengambil porsi yang sama (1fr) */
+    grid-template-columns: 1fr 1fr; 
+    gap: 30px; /* Jarak antar item (vertikal & horizontal) */
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px; /* Batasi lebar container utama */
+}
+
+.project-block {
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: black;
+    /* Membuat semua card tingginya sama, meskipun kontennya berbeda */
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.links{
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+
+    gap: 20px;
+
+    margin-top: 10px;
+}
+
+.links > a{
+    background-color: #a02527;
+    padding: 5px;
+    border-radius: 20%;
+
+    transition: 0.5s;
+}
+
+.links > a:hover{
+    transform: scale(1.05);
+}
+
+.description{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    text-align: justify;
+}

@@ -6,6 +6,7 @@ import deeplearningcert from '../../assets/certificates/deeplearning.jpg'
 import machinelearningcert from '../../assets/certificates/machinelearning.jpg'
 import tensorflowcert from '../../assets/certificates/tensorflow.jpg'
 import bangkitcert from '../../assets/certificates/bangkit_front.jpg'
+import monke from '../../assets/monke.jpeg'
 
 const Certificates = () => {
   return (
@@ -29,6 +30,11 @@ const Certificates = () => {
         folderpath={tensorflowcert}
         name='TensorFlow Developer Certificate'
         date='April 17, 2024'/>
+
+        <CertificateBlock
+        folderpath={monke}
+        name='ID Camp 2025'
+        date='Currently enrolled'/>
     </div>
   )
 }
