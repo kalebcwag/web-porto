@@ -1,0 +1,16 @@
+.certificate-container{
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+}
+
+.cert-single {
+    width: 500px;
+    margin-bottom: 10px;
+}

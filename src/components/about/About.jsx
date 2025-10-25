@@ -6,11 +6,9 @@ import git from "../../assets/github.png"
 import tiktok from "../../assets/tiktok.jpg"
 import linkin from "../../assets/linkedin.jpg"
 
-const about = () => {
+const About = () => {
     return (
       <div className='container-about'>
-        {/* <h1>Hello, World!</h1>
-        <h1>I am <u>Kaleb Coyo Wagito</u></h1> */}
         <h1>Hello, World! <u className="highlight">Kaleb Coyo Wagito</u>'s here</h1>
         <div className='about-text'>
             <div className="pic-container">
@@ -36,4 +34,4 @@ const about = () => {
     )
 }
 
-export default about
+export default About
