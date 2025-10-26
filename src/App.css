@@ -25,3 +25,9 @@
 
     font-size: 40px;
 }
+
+#about, 
+#projects, 
+#certificates {
+    scroll-margin-top: 100px; 
+}

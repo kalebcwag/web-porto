@@ -10,25 +10,20 @@ const App = () => {
     <div>
         <Navbar/>
 
-        <h1 className='section-title'>
+        <h1 id='about' className='section-title'>
           About Me
         </h1>
         <About/>
 
-        <h1 className='section-title'>
+        <h1 id='projects' className='section-title'>
           Latest Works
         </h1>
         <Projects/>
 
-        <h1 className='section-title'>
+        <h1 id='certificates' className='section-title'>
           Certificates
         </h1>
         <Certificates/>
-
-
-        <h1 className='section-title'>
-          Contact Me
-        </h1>
 
     </div>
   )

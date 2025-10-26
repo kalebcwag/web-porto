@@ -39,9 +39,9 @@ const Projects = () => {
       sub='Personal Project - Sneakers Sales Data Analytic'
       // ppt='https://vt.tiktok.com/ZSUwePW5k/'
       repo='https://github.com/kalebcwag/Sneakers-and-Streetwears-Sales-Analytics'
-      tools='Python, Tensorflow, OpenCV'
+      tools='Python, Pandas, Matplotlib'
 
-      desc='Messing around with MediaPipe for Python. Check out my TikTok for more!'
+      desc='Sneakers sales data analytic. I developed 10 questions myself based on what information could I extract from the dataset. Click the button down below for explanation video and github repository.'
       />
 
       <ProjectBlock
@@ -51,7 +51,7 @@ const Projects = () => {
       repo='https://github.com/kalebcwag/rps_dl'
       tools='Python, Tensorflow, OpenCV'
 
-      desc='Messing around with MediaPipe for Python. Check out my TikTok for more!'
+      desc='Created this project for my Deep Learning Subject in the University.'
       />
     </div>
   )

@@ -6,6 +6,10 @@ import git from "../../assets/github.png"
 import tiktok from "../../assets/tiktok.jpg"
 import linkin from "../../assets/linkedin.jpg"
 
+const Redirect = (url) => {
+    window.open(url, '_blank');
+}
+
 const About = () => {
     return (
       <div className='container-about'>
@@ -28,7 +32,8 @@ const About = () => {
         </div>
 
         <div className="btns">
-            <div className="cv">CV</div>
+            <div className="cv" onClick={() => Redirect('https://drive.google.com/file/d/1Kl_ql3ZAxSgvHblPDghSXXcmyxnjfDrK/view?usp=sharing')}>CV Bahasa Indonesia</div>
+            <div className="cv" onClick={() => Redirect('https://drive.google.com/file/d/1lGEvcngQQ8KRjDztdR8NCfYVfyWxx_4Y/view?usp=sharing')}>CV English</div>
         </div>
     </div>
     )

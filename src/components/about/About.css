@@ -79,7 +79,8 @@ a {
 
 .btns{
     display: flex;
-    width: 255px;
+    flex-direction: column;
+    width: 300px;
     justify-content: center;
 }
 
@@ -87,11 +88,13 @@ a {
     padding: 20px 40px;
     border-radius: 50px;
     background: #812325;
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
     transition: 0.3s;
+    height: 20px;
 
     margin-top: 20px;
+    margin-left: 10px;
 
     text-align: center;
     width: 150px;
@@ -102,4 +105,8 @@ a {
 
 .cv:hover{
     transform: scale(1.05);
+}
+
+#about{
+    margin-top: 125px;
 }
