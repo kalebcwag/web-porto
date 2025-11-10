@@ -33,7 +33,7 @@ const Certificates = () => {
 
         <CertificateBlock
         folderpath={monke}
-        name='ID Camp 2025'
+        name='Belajar Dasar Data Science - Dicoding'
         date='Currently enrolled'/>
     </div>
   )
