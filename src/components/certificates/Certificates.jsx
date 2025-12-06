@@ -6,7 +6,7 @@ import deeplearningcert from '../../assets/certificates/deeplearning.jpg'
 import machinelearningcert from '../../assets/certificates/machinelearning.jpg'
 import tensorflowcert from '../../assets/certificates/tensorflow.jpg'
 import bangkitcert from '../../assets/certificates/bangkit_front.jpg'
-import dasardscert from '../../assets/belajardasardatascience.jpg'
+import dasardscert from '../../assets/certificates/belajardasardatascience.jpg'
 import monke from '../../assets/monke.jpeg'
 
 const Certificates = () => {
