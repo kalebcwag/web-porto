@@ -6,6 +6,7 @@ import deeplearningcert from '../../assets/certificates/deeplearning.jpg'
 import machinelearningcert from '../../assets/certificates/machinelearning.jpg'
 import tensorflowcert from '../../assets/certificates/tensorflow.jpg'
 import bangkitcert from '../../assets/certificates/bangkit_front.jpg'
+import dasardscert from '../../assets/belajardasardatascience.jpg'
 import monke from '../../assets/monke.jpeg'
 
 const Certificates = () => {
@@ -14,27 +15,27 @@ const Certificates = () => {
         <CertificateBlock
         folderpath={machinelearningcert}
         name='Coursera Machine Learning Certificate'
-        date='October 22, 2023'/>
+        date='October 2023'/>
 
         <CertificateBlock
         folderpath={deeplearningcert}
         name='DeepLearning.AI TensorFlow Developer Certificate'
-        date='November 11, 2023'/>
+        date='November 2023'/>
 
         <CertificateBlock
         folderpath={bangkitcert}
         name='Bangkit Academy 2023 Certificate'
-        date='January 19, 2024'/>
+        date='January 2024'/>
 
         <CertificateBlock
         folderpath={tensorflowcert}
         name='TensorFlow Developer Certificate'
-        date='April 17, 2024'/>
+        date='April 2024'/>
 
         <CertificateBlock
-        folderpath={monke}
+        folderpath={dasardscert}
         name='Belajar Dasar Data Science - Dicoding'
-        date='Currently enrolled'/>
+        date='November 2025'/>
     </div>
   )
 }
